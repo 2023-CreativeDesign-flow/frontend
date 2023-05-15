@@ -1,0 +1,151 @@
+body {
+  margin-bottom: 70px;
+}
+
+.main-title {
+  margin-top: 30px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #1b2430;
+}
+
+.about-box {
+  text-align: center;
+  background: #1b2430;
+  padding: 20px 80px;
+  height: 350px;
+  margin: 30px 80px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 40px;
+  font-weight: 630;
+  margin-top: 30px;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.txt {
+  color: #fff;
+  margin: 50px;
+  font-weight: 520;
+  font-size: 20px;
+}
+
+#data {
+  display: flex;
+}
+
+.about-data {
+  list-style-type: none;
+  background: #f7f7f7;
+  margin: 10px 15px;
+  height: 300px;
+  width: 3000px;
+}
+
+.about-data p {
+  font-size: 21px;
+  font-weight: 550;
+  margin-top: 130px;
+  color: #1b2430;
+}
+
+.about-data span {
+  font-size: 17px;
+  display: block;
+  margin: 0px 30px;
+}
+
+.order {
+  margin-top: 10px;
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.order header {
+  background: #f7f7f7;
+  border-left: solid;
+  width: 20%;
+}
+
+.order header div {
+  margin: 20px;
+}
+
+.number {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.big-title {
+  font-size: 20px;
+}
+
+article {
+  border-top: solid;
+  border-bottom: solid;
+  border-width: 2px;
+  border-color: #f7f7f7;
+  width: 50%;
+}
+
+.division-line {
+  border-top: 2px solid #f7f7f7;
+  margin-top: 190px;
+  margin-bottom: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.nav-button{
+  width: 30%;
+  border-top: 2px solid;
+  border-right: 2px solid;
+  border-bottom: 2px solid;
+  border-color: #f7f7f7;
+}
+
+.nav-button button {
+  margin-top: 70px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background: #1b2430;
+  border-radius: 20px;
+  color: #fff;
+  height: 40px;
+  width: 200px;
+  font-weight: 510;
+  font-size: 15px;
+}
+
+.small-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15px 10px;
+}
+
+.explain-list {
+  font-size: 16px;
+  margin-left: 10px;
+  margin-bottom: 6px;
+}
+
+.call {
+  margin-left: 10px;
+  color: #62799E;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1350px) {
+  .about-box {
+    margin: 30px 30px;
+  }
+}
