@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/resultpage.css";
+import "../ResultPage/resultpage.css";
 
 // 백분율 바 컴포넌트
 const Bar = (props) => {
@@ -13,7 +13,7 @@ const Bar = (props) => {
     display: "inline-block",
     borderRadius: "6px",
     textAlign: "center",
-    fontSize : "15px",
+    fontSize: "15px",
     fontWeight: "bold",
   };
 

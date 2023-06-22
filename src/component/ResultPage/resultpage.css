@@ -1,0 +1,205 @@
+.resultTable {
+  vertical-align: middle;
+  padding-left: 1%;
+  padding-bottom: 1%;
+  width: 80%;
+  margin: 50px auto;
+}
+
+.main-title {
+  margin-top: 30px;
+  margin-left: 70px;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.barStyle {
+  background: #1b2430;
+  border: none;
+  height: 27px;
+  padding-top: 3px;
+  padding-left: 20px;
+  border-radius: 17px;
+  margin-left: 30px;
+  margin-right: 200px;
+  color: #fff;
+}
+
+.resultpage-container {
+  display: flex;
+}
+
+.download-button {
+  width: 150px;
+  height: 45px;
+  background: #1b2430;
+  border-radius: 7px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 0.3s;
+  margin-top: 60px;
+  margin-right: 10px;
+  margin-left: 1030px;
+}
+
+/* .ResultPageSend {
+  width: 150px;
+  height: 45px;
+  background: #1b2430;
+  border-radius: 7px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 0.3s;
+  margin-right: 10px;
+  margin-left: 1200px;
+  margin-top: 40px;
+} */
+
+.download-button:hover {
+  cursor: pointer;
+}
+
+.report-button:hover {
+  cursor: pointer;
+}
+
+.ResultPageSend:hover {
+  cursor: pointer;
+}
+
+.mainContainer {
+  margin-top: 35px;
+  margin-right: 60px;
+  margin-left: 60px;
+  height: 550px;
+  border-radius: 15px;
+}
+
+.fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 50%; /* 막대의 초기 색상 비율 설정 */
+  background-color: red; /* 막대의 초기 색상 설정 */
+}
+
+.timelines {
+  display: flex;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.timeline {
+  width: 70px;
+  height: 27px;
+  background: #a3a3a3e0;
+  border: none;
+  border-radius: 17px;
+  color: #fff;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.timelines .timeline:hover {
+  cursor: pointer;
+}
+
+.ResultPageSend {
+  width: 150px;
+  height: 45px;
+  background: #1b2430;
+  border-radius: 7px;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 0.3s;
+  margin-right: 10px;
+  margin-top: 40px;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timeline-button.active, .timeline-button {
+  width: 200px;
+  margin: 10px;
+  height: 37px;
+  font-size: 15px;
+  font-weight: 900;
+  border: none;
+  border-radius: 20px;
+  color: #5F5F5F;
+}
+
+.timeline-button.active:hover, .timeline-button:hover {
+  cursor: pointer;
+}
+
+.ResultPageBigBig {
+  display: flex; 
+  margin-left: 100px; 
+  margin-top: 10px;
+}
+
+.ResultPageBigName {
+  font-size: 18px;
+  font-weight: 900;
+  width: 80px;
+}
+
+.ResultPageSmallName {
+  margin-left: 69px;
+  font-weight: 900;
+  width: 70px;
+}
+
+.ResultPageUnderline {
+  width: 1500px;
+  height: 1px;
+  background-color: #a3a3a3e0;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.smallUnderline {
+  background-color: #a3a3a3e0;
+  width: 1373px;
+  height: 1px;
+  margin-left: 230px;
+  margin-top: 10px;
+}
+
+.ResultPageCenter {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 900;
+}
+
+.gray {
+  color: #a3a3a3e0;
+}
+
+.ExplainContainer {
+  margin-left: 65px;
+}
+
+.white {
+  color: #fff;
+}
+
+@media screen and (max-width: 1350px) {
+  .resultTh {
+    width: 20%;
+  }
+}
