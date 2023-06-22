@@ -1,70 +1,15 @@
-# Getting Started with Create React App
+# 유튜브 카피킬러
+### 2023-1 창설 팀 플로우
+2023년초, 유튜브 영상 표절로 인하여 관련 업계가 떠들썩한 시기가 있었습니다.  
+유튜브에서는 주로 사운드(음원, 노래 등)를 위주로 저작권을 검열하지만 대본, 이미지로 검사하지 않습니다.  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+유튜브 카피킬러는 유튜브 영상 2개를 놓고 표절 검사를 해주는 웹 서비스입니다.  
+영상 표절 검사로 유튜브 크리에이터들의 저작권을 지켜줄 수 있습니다.  
 
-## Available Scripts
+비교하고싶은 영상 2개의 url을 등록하고 검사하면 텍스트 검사모델, 이미지 검사모델이 각각 대본과 영상을 비교합니다.   
+이를 종합하여 최종 표절률을 출력하고, 영상의 어떤 구간에서 표절률이 높게 나왔는지 확인할 수 있도록 합니다.  
 
-In the project directory, you can run:
+해당 페이지는 유튜브 카피킬러의 frontend repository로 웹이 어떻게 구성되어있는지 확인할 수 있습니다.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 개요
+  - 목적: 유튜브 영상 2개의 표절검사
