@@ -26,3 +26,37 @@
 
 ### 디렉토리 구조
 ![image](https://github.com/2023-CreativeDesign-flow/frontend/assets/88234067/aea050e9-8184-45a5-a753-9ffcf8766aa3)
+
+### 설명
+### - component 폴더
+영상 표절 검사를 위한 사용자 인터페이스에 대한 소스코드가 정의되어 있는 폴더입니다.
+
+### - component/CopyKiller.js
+사용자가 url 두 개를 입력하여 검사할 수 있는 소스코드입니다. 두 개의 url을 입력하면 자동으로 영상이 업로드되고, 검사 시작하기 버튼을 누르면 AI 서버로 검사를 요청할 수 있습니다.
+
+### - component/Home.js
+사용자가 서비스를 편리하게 사용할 수 있도록 Youtube CopyKiller에 대해 간단히 설명한 페이지입니다.
+
+### - component/Login.js
+사용자가 서비스를 사용하기 위해서 로그인을 할 수 있는 페이지입니다. 이메일 주소와 패스워드를 입력하여 로그인할 수 있습니다.
+
+### - component/SignUp.js
+사용자가 서비스를 사용하기 전에 회원가입을 할 수 있는 페이지입니다. 사용자 이름, 이메일 주소, 패스워드를 입력하여 회원가입할 수 있습니다.
+
+### - component/Mypage.js
+사용자가 이전에 검사한 내역을 조회할 수 있는 페이지입니다. 영상 제목을 클릭하면 해당 영상에 대한 검사 결과 페이지로 이동하게 되어 상세 내용을 확인할 수 있습니다.
+
+## 오픈소스, API, 라이브러리의 출처와 버전
+### React
+   react: 18.2.0
+   react-router-dom: 6.11.0
+   @mui/icons-material: 5.11.11
+
+
+## 기여자   
+  
+<div align="center">
+  <a href="https://github.com/seolsis">
+    <img src="[https://user-images.githubusercontent.com/102962030/206461747-4d56a152-6963-46ea-853a-603465037070.png](https://static.wikia.nocookie.net/catchteenieping/images/a/ac/%ED%95%98%EC%B8%84%EC%9E%89_%EC%8B%9C%EC%A6%8C_2.png/revision/latest/thumbnail/width/360/height/360?cb=20211024200626&path-prefix=ko)https://static.wikia.nocookie.net/catchteenieping/images/a/ac/%ED%95%98%EC%B8%84%EC%9E%89_%EC%8B%9C%EC%A6%8C_2.png/revision/latest/thumbnail/width/360/height/360?cb=20211024200626&path-prefix=ko", width=200, alt="seolsis", title="seolsis"/>
+  </a>
+</div>
