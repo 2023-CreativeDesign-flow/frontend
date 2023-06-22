@@ -57,6 +57,6 @@
   
 <div align="center">
   <a href="https://github.com/seolsis">
-    <img src="[https://user-images.githubusercontent.com/102962030/206461747-4d56a152-6963-46ea-853a-603465037070.png](https://static.wikia.nocookie.net/catchteenieping/images/a/ac/%ED%95%98%EC%B8%84%EC%9E%89_%EC%8B%9C%EC%A6%8C_2.png/revision/latest/thumbnail/width/360/height/360?cb=20211024200626&path-prefix=ko)https://static.wikia.nocookie.net/catchteenieping/images/a/ac/%ED%95%98%EC%B8%84%EC%9E%89_%EC%8B%9C%EC%A6%8C_2.png/revision/latest/thumbnail/width/360/height/360?cb=20211024200626&path-prefix=ko", width=200, alt="seolsis", title="seolsis"/>
+    <img src="", width=200, alt="seolsis", title="seolsis"/>
   </a>
 </div>
