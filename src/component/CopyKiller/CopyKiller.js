@@ -5,11 +5,8 @@ import YouTube from "react-youtube";
 import { sendAiModule } from "../../service/AiModuleApiService";
 import {
   imgtimeline,
-  report,
   texttimeline,
-  updateurl,
 } from "../../service/LogService";
-import { API_BASE_URL } from "../../service/app-config";
 
 function CopyKiller() {
   const [inputValue1, setInputValue1] = useState("");
